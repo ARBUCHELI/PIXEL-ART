@@ -2,16 +2,16 @@
 <html>
 <head>
     <title>Pixel Art Maker!</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton"> <!--Import of text-font-->
+    <link rel="stylesheet" href="styles.css"> <!--Link to style css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--Import of jQuery (Used for DOM manipulation and event handling-->
 </head>
 <body>
-    <h1>Lab: Pixel Art Maker</h1>
-    <h1 id="name">By: Andrés R. Bucheli</h1>
+    <h1>Lab: Pixel Art Maker</h1> <!--Title of the website-->
+    <h1 id="name">By: Andrés R. Bucheli</h1> <!--Subtitle of the website, Name of author-->
 
-    <h2>Choose Grid Size</h2>
-    <form id="sizePicker">
+    <h2>Choose Grid Size</h2> <!--Invitation for User to choose grid size-->
+    <form id="sizePicker"> <!--Form used for input Height and Width of the grid-->
         Grid Height:
         <input type="number" id="inputHeight" name="height" min="1" value="1">
         Grid Width:
@@ -19,14 +19,14 @@
         <input type="submit">
     </form>
 
-    <h2>Pick A Color</h2>
+    <h2>Pick A Color</h2> <!--Invitation for the user to pick a color-->
     <input type="color" id="colorPicker">
 
     <h2>Design Canvas</h2>
-    <table id="pixelCanvas">
+    <table id="pixelCanvas"> <!--Design of the grid-->
     </table>
 
-    <script src="designs.js"></script>
+    <script src="designs.js"></script> <!--Link to JavaScript-->
 </body>
 </html>
 
