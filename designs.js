@@ -8,7 +8,7 @@ $(document).ready(function() { //The code only run when the DOM is ready.  This 
     sizeHeight = sizeData[0]["value"]; //Place Height in the first position of the array and Width in the second position.//
     sizeWidth = sizeData[1]["value"];  //Place Height in the first position of the array and Width in the second position.//
     $("#pixelCanvas").empty(); //removes all child nodes and content from the selected elements.//
-    makeGrid(sizeHeight, sizeWidth);
+    makeGrid(sizeHeight, sizeWidth); //function makeGrid that takes as argument, the parameters sizeHeight and sizeWidth.//
   });
 
   function makeGrid(height, width) {
