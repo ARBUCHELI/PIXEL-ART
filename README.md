@@ -26,7 +26,7 @@ Create your art.
 2. Open the index.html file in Google Chrome to see the project.
 3. Create your own art.
 
-Author: Andrés R. Bucheli.
+# Author: Andrés R. Bucheli.
 
 
 
